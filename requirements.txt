@@ -1,0 +1,7 @@
+flask
+numpy
+pandas
+regex
+nltk
+scikit-learn
+scipy

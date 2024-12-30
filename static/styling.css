@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    background-color: white;
+}
+
+/* Textarea and Button */
+textarea.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+textarea.form-control:focus {
+    border-color: #007bff;
+}
+
+button.btn {
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+button.btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Results Section */
+.card-header.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.card-header.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+h5.text-uppercase {
+    font-weight: 600;
+    font-size: 20px;
+    color: #007bff;
+}
+
+/* Image Styling */
+img.img-fluid {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    button.btn {
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+/* Instruction Card */
+.instruction-card {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 10px;        /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;              /* Adequate padding */
+    text-align: center;         /* Center the text */
+    font-size: 18px;            /* Increase font size for readability */
+    font-weight: 500;           /* Slightly bold text */
+    color: #495057;             /* Dark text color for better contrast */
+    margin-bottom: 30px;        /* Space below the instruction card */
+}
+
+/* Responsive Design for Instruction Card */
+@media (max-width: 768px) {
+    .instruction-card {
+        font-size: 16px;         /* Reduce font size on smaller screens */
+        padding: 15px;           /* Slightly smaller padding */
+    }
+}
