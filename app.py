@@ -18,13 +18,10 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = IMAGE_FOLDER
 
 def init():
-    global model, vocabulary, tfidf
+    global model, tfidf
     # Load the model
     with open('logr_m.pickle', 'rb') as f:
         model = pickle.load(f)
-    # Load the vocabulary
-    with open("vocabulary", "rb") as f:
-        vocabulary = pickle.load(f)
     # Load the TF-IDF vectorizer
     with open('tfidf_vectorizer.pickle', 'rb') as f:
         tfidf = pickle.load(f)
