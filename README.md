@@ -24,4 +24,18 @@
     <br />
     <a href="https://www.kaggle.com/datasets/milobele/sentiment140-dataset-1600000-tweets/data">Twitter Data</a>
   </p>
+  <br />
+  <br />
+  <br />
+  <p>
+    The app classifies the text as Positive, Neutral or Negative. 
+    <br />
+    To run the app after downloading the files:
+    <br />
+    (1) Install the required packages: pip install -r requirements.txt
+    <br />
+    (2) Start the app: python app.py
+    <br />
+    The app shall run locally on http://127.0.0.1:5000  
+  </p>
 </div>
